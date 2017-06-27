@@ -1,0 +1,13 @@
+body {
+    			font-family: 'Kalam';
+			font-size: 20px;
+		}
+		h1 {
+			font-family: Cursive;
+		}
+		th {
+			border: 1px solid black;
+			width: 50%;
+		}
+		table, td {
+			border: 1px solid black;
