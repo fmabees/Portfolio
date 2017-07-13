@@ -1,12 +1,14 @@
 var cat = document.getElementById("cat");
-var arrow1 = document.getElementById("arrow");
-function hover() {
-  cat.style.width = "400px";
+var arrow1 = document.getElementById("arrow1");
+function hover(object) {
+  object.style.width = "400px";
 }
-function smaller() {
-  cat.style.width = "350px";
+function smaller(object) {
+  object.style.width = "350px";
 }
-
-function moveRight() {
-  arrow1.style.left = (arrow1.style.left+10)+"px";
+function background() {
+  document.body.style.backgroundImage = "url('background.jpg')";
+}
+function scrollWin(x) {
+  window.scrollTo(0,x);
 }
