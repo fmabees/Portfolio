@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html style="margin:40px; background-color: Plum;">
+<html>
 	<head>
-		<img id="cat" onmousemove="hover()" onmouseout="smaller()" src="http://webneel.com/daily/sites/default/files/images/daily/02-2014/15-cat-color-pencil-drawing-michelle.preview.jpg" ALIGN="left" style="width:350px; margin-right:50px; margin-bottom:10px; border: 5px solid White"/>
+		<div class="topNav">
+			<ul id="ul">
+			  <li id="li" onclick="scrollWin()"><a id="a" lass="active" href="">Home</a></li>
+			  <li id="li"><a id="a" href="#bio" onclick="scrollWin(800)">Bio</a></li>
+			  <li id="li"><a id="a" href="#facts" onclick="scrollWin(1350)">Fun Facts</a></li>
+			</ul>
+		</div>
 		<title>About Me</title>
-		<h1>About Me</h1>
+		<h1 id="quote" ALIGN="center">Everyone wants happiness,<br>No one wants pain,<br>But we can't have a rainbow,<br>Without a little a rain</h1>
 		<hr>
 	</head>
 	<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet'>
 	<link href="aboutmeCSS.css" rel="stylesheet"/>
   <script src="aboutmeJS.js"></script>
 	<body>
-		<p>
+		<img id="cat" onmousemove="hover(this)" onmouseout="smaller(this)" src="cat.jpg" ALIGN="left"/>
+		<p id="biog">
 			Bio: I am a 16 year old homeschooling highschool incoming junior.
 			<br>I enjoy computer programming, running, graphic designing, reading, biking, and drawing.
 			<br>I am taking community college classes at Foothill, Mission, and San Jose City college.
@@ -20,7 +28,11 @@
 			<br>I have two sisters (15 and 12) and one brother (4).
 			<br>My sister and I are 10.5 months apart, so we share the same age for 1.5 months.
 			<br>My brother and I are 12 years apart. So when he will be 8, I will be 20!! WEIRD!!
-			<br><br>FUN FACTS!!!
+		</p>
+		<p id="funFacts">
+			<br>
+			<hr>
+			FUN FACTS!!!
 			<br>I have been coding since I was nine. My dad and I are the only ones who code. My sisters hate it and think it is boring.
 			<br>Computer languages I know: HTML, CSS, JavaScript, C#, XAML, Java, AXML, Python, and XML
 			<br>I created an app called Math-a-morphosis for all three app stores!
@@ -29,11 +41,11 @@
 			<br>I know three languages (English, Urdu, Hindi) and am almost done learning my fourth (Arabic).
 			<br>My favorite food is lasagna.
 			<br>I was homeschooled since the beginning, so I still don't know what going to school is like.
-			<br>This page includes 4 of my favorite colors! Guess them all!!!
 			<br>I am a grammar and writing police. I can point out grammar mistakes in anything! So my dad calls me to check his grammar whenever he is writing a formal email.
 			<br>Once, I created a Google slides, 12 pages long, filled with the images of all the jokes I like. It contains over 220 jokes!!!
-			<br>Go here to read it: <u>https://goo.gl/kMgTPN</u> <img id="arrow" onmousemove="moveRight()" ALIGN="center" src="arrow.png" style="width:100px"/>
-		</p>
+			<br>Go here to read it: <u>https://goo.gl/kMgTPN</u>
+			<br><br>
+			</p>
 		<table style="background-color: white">
 			<tr>
 				<th style="background-color: orange">Likes</th>
@@ -70,7 +82,4 @@
 				</td>
 			</tr>
 		</table>
-			My favorite webpages are Google Drive, Outlook, and Google Images.
-			<br>Google images is my favorite because I get to look at jokes, memes, cute baby animals, gifs, and anything else that makes me happy.
-		</p>
 </html>
