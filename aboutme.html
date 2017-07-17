@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<div class="topNav">
-			<ul id="ul">
-			  <li id="li" onclick="scrollWin()"><a id="a" lass="active" href="#home">Home</a></li>
-			  <li id="li"><a id="a" href="#bio" onclick="scrollWin(800)">Bio</a></li>
-			  <li id="li"><a id="a" href="#facts" onclick="scrollWin(1350)">Fun Facts</a></li>
-			</ul>
-		</div>
+<body>
+		<div id="homeTest">
+			<div class="topNav">
+				<ul id="ul">
+				  <li id="li" onclick="scrollWin()"><a id="a" lass="active" href="">Home</a></li>
+				  <li id="li"><a id="a" href="#bio" onclick="scrollWin(800)">Bio</a></li>
+				  <li id="li"><a id="a" href="#facts" onclick="scrollWin(1350)">Fun Facts</a></li>
+				</ul>
+			</div>
 		<title>About Me</title>
-		<h1 id="quote" ALIGN="center">Everyone wants happiness,<br>No one wants pain,<br>But we can't have a rainbow,<br>Without a little a rain</h1>
-		<hr>
-	</head>
+		<h1 id="quote" ALIGN="center">Everyone wants happiness,<br>No one wants pain,<br>But we can't have a
+			<span style="color:Red;">r</span><span style="color:Orange;">a</span><span style="color:Yellow;">i</span><span style="color:ForestGreen;">n</span><span style="color:DeepSkyBlue;">b</span><span style="color:MidnightBlue;">o</span><span style="color:DarkMagenta;">w</span>,<br>Without a little a rain</h1>
 	<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet'>
 	<link href="aboutmeCSS.css" rel="stylesheet"/>
   <script src="aboutmeJS.js"></script>
-	<body>
-		<img id="cat" onmousemove="hover(this)" onmouseout="smaller(this)" src="cat.jpg" ALIGN="left"/>
+</div>
+		<div class="thumb">
+			<!-- <div id="catDiv" ALIGN="left" onmousemove="hover()" onmouseout=""></div> -->
+			<img id="cat" src="cat.jpg" ALIGN="left"/>
+			<div class="text">
+				<button class="catRead"><span class="catSpan">Read More </span></button>
+			</div>
+		</div>
 		<p id="biog">
 			Bio: I am a 16 year old homeschooling highschool incoming junior.
 			<br>I enjoy computer programming, running, graphic designing, reading, biking, and drawing.
@@ -30,8 +36,6 @@
 			<br>My brother and I are 12 years apart. So when he will be 8, I will be 20!! WEIRD!!
 		</p>
 		<p id="funFacts">
-			<br>
-			<hr>
 			FUN FACTS!!!
 			<br>I have been coding since I was nine. My dad and I are the only ones who code. My sisters hate it and think it is boring.
 			<br>Computer languages I know: HTML, CSS, JavaScript, C#, XAML, Java, AXML, Python, and XML
@@ -46,7 +50,7 @@
 			<br>Go here to read it: <u>https://goo.gl/kMgTPN</u>
 			<br><br>
 			</p>
-		<table style="background-color: white">
+		<table>
 			<tr>
 				<th style="background-color: orange">Likes</th>
 				<th style="background-color: skyblue">Dislikes</th>
@@ -82,4 +86,5 @@
 				</td>
 			</tr>
 		</table>
+	</body>
 </html>
