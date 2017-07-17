@@ -1,9 +1,16 @@
 var cat = document.getElementById("cat");
 var arrow1 = document.getElementById("arrow1");
-function hover(object) {
-  object.style.width = "400px";
+var divCat = document.getElementById("catDiv");
+// function hover(object) {
+//   object.style.width = "400px";
+// }
+// function smaller(object) {
+//   object.style.width = "350px";
+// }
+function hover() {
+  divCat.style.background-color = rgba(255, 255, 255, 0.7);
 }
-function smaller(object) {
+function smaller() {
   object.style.width = "350px";
 }
 function background() {
