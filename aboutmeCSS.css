@@ -171,6 +171,7 @@ table {
     position:absolute;    
     background-attachment:fixed;
     left:0;
+	background-size:cover;
     top:0;
     z-index:-1;
 }
