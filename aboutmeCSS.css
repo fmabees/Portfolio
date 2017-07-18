@@ -17,7 +17,7 @@ table {
   margin-right: 50px;
 }
 #homeTest {
-  background: url("background.jpg") no-repeat center;
+  background: url("background.jpg") no-repeat center fixed;
   background-position: top center;
   margin: 0px 0px 0px 0px;
 	padding: 70px 0 0 0;
@@ -170,7 +170,6 @@ table {
     content:'';
     height:100%;
   width:100%;
-  background: url("http://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png");
     position:absolute;    
     background-attachment:fixed;
     background-size:cover;
