@@ -109,7 +109,8 @@ table {
   font-size: 80px;
   color: PaleVioletRed;
   margin-top: 0px;
-  line-height: 200px;
+  line-height: 211px;
+	position: fixed;
 }
 #ul {
     list-style-type: none;
