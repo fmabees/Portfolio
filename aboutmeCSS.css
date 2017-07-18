@@ -168,12 +168,9 @@ table {
         position:relative;
 }
 #uberuns:after {
-    content:'';
-    height:100%;
   width:100%;
     position:absolute;    
     background-attachment:fixed;
-    background-size:cover;
     left:0;
     top:0;
     z-index:-1;
